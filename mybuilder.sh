@@ -35,3 +35,4 @@ if [ -f $package ]; then
 else
 	echo "Error: package not build"
 fi
+rm "$PARENDIR/$app"_"$version"*
